@@ -14,7 +14,7 @@ This paper proposed a private and fair federated learning algorithm (FedPF) with
 
 
 ```bash
-# Example
+# code
 git clone https://github.com/your-repo.git
 cd your-repo
 pip install -r requirements.txt
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-# Example
+# code
 python main.py
 ```
 
