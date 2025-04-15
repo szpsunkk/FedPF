@@ -31,13 +31,13 @@ python main.py
 We consider three scenerios, including fairness metrics, privacy metrics, fairness and privacy metrics.
 
 ### Fairness Metrics
-![Fairness](./figures/Only%20Fairness.png)
+![Fairness](./figures/Only_Fairness.png)
 
 ### Privacy Metrics
-![Privacy](./figures/Only%20Privacy.png)
+![Privacy](./figures/Only_Privacy.png)
 
 ### Fairness and Privacy Metrics
-![Fairness and Privacy](./figures/Fairness%20and%20Privacy.png)
+![Fairness and Privacy](./figures/Fairness_and_Privacy.png)
 
 ## Contributing
 
