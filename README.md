@@ -1,6 +1,6 @@
-# Project Title
+# Balancing the Tightrope: Privacy, Fairness, and Utility in Federated Learning
 
-A brief description of what this project does and who it's for.
+This paper proposed a private and fair federated learning algorithm (FedPF) with protected sensitive dataset. We study the relationship between fairness, privacy and utility in Federated Learning.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ A brief description of what this project does and who it's for.
 
 ## Installation
 
-Instructions on how to install and set up the project.
 
 ```bash
 # Example
@@ -23,18 +22,22 @@ pip install -r requirements.txt
 
 ## Usage
 
-Examples of how to use the project.
-
 ```bash
 # Example
 python main.py
 ```
 
-## Features
+## Results
+We consider three scenerios, including fairness metrics, privacy metrics, fairness and privacy metrics.
 
-- Feature 1
-- Feature 2
-- Feature 3
+### Fairness Metrics
+![Fairness](figures/Only%20Fairness.png)
+
+### Privacy Metrics
+![Privacy](figures/Only%20Privacy.png)
+
+### Fairness and Privacy Metrics
+![Fairness and Privacy](figures/Fairness%20and%20Privacy.png)
 
 ## Contributing
 
