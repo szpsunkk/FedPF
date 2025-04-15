@@ -15,8 +15,8 @@ This paper proposed a private and fair federated learning algorithm (FedPF) with
 
 ```bash
 # code
-git clone https://github.com/your-repo.git
-cd your-repo
+git clone https://github.com/szpsunkk/FedPF.git
+cd FedPF
 pip install -r requirements.txt
 ```
 
