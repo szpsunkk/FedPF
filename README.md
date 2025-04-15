@@ -2,6 +2,8 @@
 
 This paper proposed a private and fair federated learning algorithm (FedPF) with protected sensitive dataset. We study the relationship between fairness, privacy and utility in Federated Learning.
 
+![Algorithm](./figures/Algorithm.png)
+
 ## Table of Contents
 
 - [Installation](#installation)
