@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ./system/federated_exponential_mechanism_adult.ipynb
 
 # or the python code
-python main.py
+python system/main.py
 
 ```
 
