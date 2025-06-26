@@ -32,14 +32,7 @@ python main.py
 ## Results
 We consider three scenerios, including fairness metrics, privacy metrics, fairness and privacy metrics.
 
-### Fairness Metrics
-![Fairness](./figures/Only_Fairness.png)
-
-### Privacy Metrics
-![Privacy](./figures/Only_Privacy.png)
-
-### Fairness and Privacy Metrics
-![Fairness and Privacy](./figures/Fairness_and_Privacy.png)
+The templete is in the file `system\federated_exponential_mechanism_adult.ipynb` and `system\federated_exponential_mechanism_bank.ipynb`
 
 ## Contributing
 
