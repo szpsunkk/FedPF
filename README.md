@@ -24,14 +24,19 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-# code
+# Jupyter templete
+
+./system/federated_exponential_mechanism_adult.ipynb
+
+# or the python code
 python main.py
+
 ```
 
 ## Results
 We consider three scenerios, including fairness metrics, privacy metrics, fairness and privacy metrics.
 
-The templete is in the file `system\federated_exponential_mechanism_adult.ipynb` and `system\federated_exponential_mechanism_bank.ipynb`
+The templete is in the file `system/federated_exponential_mechanism_adult.ipynb` and `system/federated_exponential_mechanism_bank.ipynb`
 
 ## Contributing
 
