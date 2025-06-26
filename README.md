@@ -2,7 +2,6 @@
 
 This paper proposed a private and fair federated learning algorithm (FedPF) with protected sensitive dataset. We study the relationship between fairness, privacy and utility in Federated Learning.
 
-In Federated Learning (FL), fairness and privacy issues are always hot topics. Studying the relationship between fairness, privacy, and utility in FL is crucial for achieving a secure and reliable FL. This paper mainly explores local fair classifiers with private demographic data in FL and also examines the relationship between fairness, privacy, and utility. Specifically, the paper proposes a differential private fair FL algorithm (FedPF). Here, the FL optimization problem is transformed into a zero-sum game based on Lagrange multipliers. To solve the Nash equilibrium of this game, we uses \textit{Q-Learner} and \textit{$\lambda$-Player} to find the optimal local classifier. Theoretically, we derive the tradeoff between privacy, fairness, and utility in FL and determine the convergence and robustness boundaries satisfied of our algorithm. Especially, we find the privacy and fairness are roughly inversely proportional and utility of the global model is determined by privacy, fairness and the internal parameters, such as the mean error $\widehat{\operatorname{err}}(Y)$ downward with the increase of the privacy budget $\epsilon_p$, but due to the constraints of fairness $\epsilon_f$, the mean error $\widehat{\operatorname{err}}(Y)$ may increase dynamically. 
 
 ## Table of Contents
 
