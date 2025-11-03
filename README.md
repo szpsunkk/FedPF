@@ -1,4 +1,4 @@
-# Balancing the Tightrope: Privacy, Fairness, and Utility in Federated Learning
+# Accurate Target Privacy Preserving Federated Learning Balancing Fairness and Utility
 
 This paper proposed a private and fair federated learning algorithm (FedPF) with protected sensitive dataset. We study the relationship between fairness, privacy and utility in Federated Learning.
 
