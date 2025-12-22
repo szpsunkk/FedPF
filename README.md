@@ -45,9 +45,9 @@ The comparison with baseline algorithms:
 ```
 
 ### FedPF Algorithm
-<div style="width: 80%; margin: 0 auto;">
-![FedPF algorithm](./figures/Algorithm.png)
-</div>  
+
+<img src="./figures/Algorithm.png" alt="FedPF algorithm" width="80%">
+
 ## Results
 We consider three scenerios, including fairness metrics, privacy metrics, fairness and privacy metrics.
 
