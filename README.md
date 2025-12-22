@@ -33,6 +33,12 @@ python system/main.py
 
 ```
 
+The comparison with baseline algorithms:
+
+```
+./system/compare_adult.ipynb
+```
+
 ## Results
 We consider three scenerios, including fairness metrics, privacy metrics, fairness and privacy metrics.
 
