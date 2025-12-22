@@ -45,9 +45,9 @@ The comparison with baseline algorithms:
 ```
 
 ### FedPF Algorithm
-
-![FedPF algorithm](./figures/Algorithm.png){width=80%}
-
+<div style="width: 80%; margin: 0 auto;">
+![FedPF algorithm](./figures/Algorithm.png)
+</div>  
 ## Results
 We consider three scenerios, including fairness metrics, privacy metrics, fairness and privacy metrics.
 
@@ -67,15 +67,15 @@ The fairness constraints of FedPF algorithm influence on the discrimination ($\m
 ### Privacy-Utiltiy Tradeoff
 
 The privacy $\varepsilon_p$ of FedPF algorithm influence on the loss of server model without fairness constraints in FL based on Adult, Bank and Compas datasets, respectively.
-
-![p-u-tradeoff](./figures/Privacy-Utility-tradeoff.png){width=80%}
-
+<div style="width: 80%; margin: 0 auto;">
+![p-u-tradeoff](./figures/Privacy-Utility-tradeoff.png)
+</div>  
 ### Privacy-Fairnee-Utility Tradeoff
 
-The privacy budget of FedPF algorithm influence on the loss and the discrimination (EO) of server model in FL based on FedPF algorithm. The fairness constraints include without fairness constraints and with fairness constraints ($\varepsilon_f = 0.1$) lines. The sensitive attributes in Adult, Bank and Compas datasets are \textit{Age}, \textit{Age} and \textit{Sex}, respectively.
-
-![p-f-u-tradeoff](./figures/Privacy-Fairness-Utility-tradeoff.png){width=60%}
-
+The privacy budget of FedPF algorithm influence on the loss and the discrimination (EO) of server model in FL based on FedPF algorithm. The fairness constraints include without fairness constraints and with fairness constraints ($\varepsilon_f = 0.1$) lines. The sensitive attributes in Adult, Bank and Compas datasets are Age, Age and Sex, respectively.
+<div style="width: 60%; margin: 0 auto;">
+![p-f-u-tradeoff](./figures/Privacy-Fairness-Utility-tradeoff.png)
+</div>  
 
 ## Contributing
 
