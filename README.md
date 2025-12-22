@@ -67,15 +67,16 @@ The fairness constraints of FedPF algorithm influence on the discrimination ($\m
 ### Privacy-Utiltiy Tradeoff
 
 The privacy $\varepsilon_p$ of FedPF algorithm influence on the loss of server model without fairness constraints in FL based on Adult, Bank and Compas datasets, respectively.
-<div style="width: 80%; margin: 0 auto;">
-![p-u-tradeoff](./figures/Privacy-Utility-tradeoff.png)
-</div>  
+
+<img src="./figures/Privacy-Utility-tradeoff.png" alt="Privacy-Utility Tradeoff" width="50%">
+
+
 ### Privacy-Fairnee-Utility Tradeoff
 
 The privacy budget of FedPF algorithm influence on the loss and the discrimination (EO) of server model in FL based on FedPF algorithm. The fairness constraints include without fairness constraints and with fairness constraints ($\varepsilon_f = 0.1$) lines. The sensitive attributes in Adult, Bank and Compas datasets are Age, Age and Sex, respectively.
-<div style="width: 60%; margin: 0 auto;">
-![p-f-u-tradeoff](./figures/Privacy-Fairness-Utility-tradeoff.png)
-</div>  
+
+<img src="./figures/Privacy-Fairness-Utility-tradeoff.png" alt="Privacy-Fairness-Utility Tradeoff" width="50%">
+
 
 ## Contributing
 
