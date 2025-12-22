@@ -49,6 +49,30 @@ We consider three scenerios, including fairness metrics, privacy metrics, fairne
 
 The templete is in the file `system/federated_exponential_mechanism_adult.ipynb` and `system/federated_exponential_mechanism_bank.ipynb`
 
+### Comparison with Different Baselines
+We compare the performance with state-of-the-art benchmark algorithms, including FedAvg, Centaur (ICLR 2023), FedAA (AAAI 2025), and FedCEO (ICML 2025). The results are shown as follows:
+
+![Comparison](./figures/comparison.png)
+
+### Fairness-Utility Tradeoff
+
+The fairness constraints of FedPF algorithm influence on the discrimination ($\mathcal{G}_{ya}$) without privacy protection in FL.
+
+![f-u-tradeoff](./figures/Fairness-Utility-tradeoff.png)
+
+### Privacy-Utiltiy Tradeoff
+
+The privacy $\varepsilon_p$ of FedPF algorithm influence on the loss of server model without fairness constraints in FL based on \textit{Adult}, \textit{Bank} and \textit{Compas} datasets, respectively.
+
+![p-u-tradeoff](./figures/Privacy-Utility-tradeoff.png)
+
+### Privacy-Fairnee-Utility Tradeoff
+
+The privacy budget of FedPF algorithm influence on the loss and the discrimination (\textit{EO}) of server model in FL based on \textit{FedPF} algorithm. The fairness constraints include \textit{without fairness constraints} and \textit{with fairness constraints} ($\varepsilon_f = 0.1$) lines. The sensitive attributes in \textit{Adult}, \textit{Bank} and \textit{Compas} datasets are \textit{Age}, \textit{Age} and \textit{Sex}, respectively.
+
+![p-f-u-tradeoff](./figures/Privacy-Fairness-Utility-tradeoff.png)
+
+
 ## Contributing
 
 Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
