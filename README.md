@@ -44,6 +44,8 @@ The comparison with baseline algorithms:
 ./system/compare_adult.ipynb
 ```
 
+For the testbed code, please refer to our [Website](https://ieee-p21451-1-5.github.io/) and [Protocol GitHub code](https://github.com/ieee-p21451-1-5/demo-ncap).
+
 ### FedPF Algorithm
 
 <img src="./figures/Algorithm.png" alt="FedPF algorithm" width="50%">
